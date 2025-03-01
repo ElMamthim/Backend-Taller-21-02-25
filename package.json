@@ -1,0 +1,23 @@
+{
+  "name": "taller-backend---21-02-25",
+  "version": "1.0.0",
+  "description": "Taller en clase",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElMamthim/Backend-Taller-21-02-25.git"
+  },
+  "author": "Mathias L",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElMamthim/Backend-Taller-21-02-25/issues"
+  },
+  "homepage": "https://github.com/ElMamthim/Backend-Taller-21-02-25#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1"
+  }
+}

@@ -1,0 +1,13 @@
+Actividad de BackEnd
+Crear una API usando lo aprendido con Node/Express. Para lo cual crearemos un proyecto desde cero.
+
+Pasos para crear el proyecto
+1. Crear el proyecto usando npm, con este comando inicializamos el repositorio npm init
+2. Inicializamos git usando el siguiente comando git init. Recordemos que debemos crear el archivo .gitignore
+3. Lanzar el servidor usando Express. Recuerda que debes instalar la dependencia con el siguiente comando npm i express
+4. Realizar la configuración de la base de datos usando Mongoose. Recuerda que debes instalar la siguiente dependencia con el siguiente comando npm i mongoose ademas agregar el archivo de configuracion de la base de datos
+5. Establecer 2 rutas donde se van a crear los endpoints necesarios para realizar un CRUD. La ruta sugerida sera /api/empleados,/api/areas
+6. Crear dos modelos uno para la entidad empleado y el otro para la entidad area. El primero debe tener las siguientes propiedades: nombre, edad, cargo, areaId el segundo tendrá las siguientes propiedades: nombre, descripcion, salario
+7. Crear los respectivos controladores y servicios para cada uno de los endpoints
+8. Crear los respectivos controladores y servicios para cada uno de los endpoints
+9. Una ves construido el CRUD de las dos entidades EMPLEADO y AREA, hacer la respectiva prueba usando Postman.
