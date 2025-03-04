@@ -10,4 +10,4 @@ Pasos para crear el proyecto
 6. Crear dos modelos uno para la entidad empleado y el otro para la entidad area. El primero debe tener las siguientes propiedades: nombre, edad, cargo, areaId el segundo tendrá las siguientes propiedades: nombre, descripcion, salario
 7. Crear los respectivos controladores y servicios para cada uno de los endpoints
 8. Crear los respectivos controladores y servicios para cada uno de los endpoints
-9. Una ves construido el CRUD de las dos entidades EMPLEADO y AREA, hacer la respectiva prueba usando Postman.
+9. Una ves construido el CRUD de las dos entidades EMPLEADO y AREA, hacer la respectiva prueba usando Postman. 

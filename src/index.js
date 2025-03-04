@@ -9,6 +9,7 @@ Tconexion();
 app.use(express.json());
 
 app.use( '/api/areas', require( './routes/areas.routes.js' ));
+app.use( '/api/empleados', require( './routes/empleados.routes.js' ));
 
 app.listen( 3001, function() {
     console.log( 'Servidor iniciado en el puerto 3001' );
